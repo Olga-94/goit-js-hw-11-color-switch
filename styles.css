@@ -1,0 +1,34 @@
+.btn {
+  padding: 20px;
+  width: 130px;
+  display: flex;
+  border-radius: 6px;
+  border: 4px solid #132e13;
+  background-color: forestgreen;
+  flex-direction: column;
+  box-shadow: 0px 1px 3px 0px rgba(177, 73, 73, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 26px;
+  font-weight: 700px;
+}
+
+.stopbtn {
+  background-color: red;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 20px;
+}
